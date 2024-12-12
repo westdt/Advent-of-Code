@@ -12,6 +12,9 @@ mod day_06_1;
 mod day_06_2;
 mod day_07_1;
 mod day_07_2;
+mod day_08_1;
+mod day_08_2;
+mod day_09_1;
 
 fn main() {
     println!(
@@ -82,5 +85,20 @@ fn main() {
     println!(
         "Day 7, part 2: {}",
         day_07_2::solve(include_str!("day_07.txt"))
+    );
+
+    println!(
+        "Day 8, part 1: {}",
+        day_08_1::solve(include_str!("day_08.txt"))
+    );
+
+    println!(
+        "Day 8, part 2: {}",
+        day_08_2::solve(include_str!("day_08.txt"))
+    );
+
+    println!(
+        "Day 9, part 1: {}",
+        day_09_1::solve(include_str!("day_09.txt"))
     );
 }
